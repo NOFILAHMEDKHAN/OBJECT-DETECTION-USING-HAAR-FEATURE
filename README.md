@@ -40,25 +40,13 @@ Install dependencies using:
 pip install opencv-python matplotlib
 🔁 How to Run
 
-For single image detection:
-
-bash
-Copy
-Edit
-python haar_eye_detection_single.py
-For batch image detection (10 images):
-
-bash
-Copy
-Edit
-python haar_eye_detection_batch.py
+For single image detection:python haar_eye_detection_single.py
+For batch image detection (10 images):python haar_eye_detection_batch.py
 ✅ Ensure correct paths are set in the scripts:
 
 image_path in haar_eye_detection_single.py
 
-image_folder in haar_eye_detection_batch.py
-
-📌 Notes
+image_folder in haar_eye_detection_batch.py📌 Notes
 
 Haar Cascades are efficient and suitable for real-time detection
 
@@ -67,3 +55,4 @@ May result in false positives in complex scenes
 Accuracy depends on image quality, lighting, and visibility
 
 For advanced object detection, consider deep learning methods like YOLO or SSD
+
